@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-x64.exe#/dl.7z",
+            "url": "https://laptop-updates.brave.com/latest/winx64",
             "hash": "d9e7dd4f7597b6cec73dd49a23c52f4da87a8c25ccf837b8c3a8c7a70895606f"
         },
         "32bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.4.96/brave_installer-ia32.exe#/dl.7z",
+            "url": "https://laptop-updates.brave.com/latest/winia32",
             "hash": "683a5f4e1295cb26acbff648864939e529243e1f6df4451a857aa8c2ed4794fe"
         }
     },
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave_installer-x64.exe#/dl.7z"
+                "url": "https://laptop-updates.brave.com/latest/winx64"
             },
             "32bit": {
-                "url": "https://github.com/brave/brave-browser/releases/download/v$version/brave_installer-ia32.exe#/dl.7z"
+                "url": "https://laptop-updates.brave.com/latest/winia32"
             }
         }
     }
